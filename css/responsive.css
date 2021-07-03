@@ -1,0 +1,53 @@
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Home */
+    #home-heading h1 {
+        font-size: 41px;
+    }
+    #home-text p {
+        font-size: 13px;
+    }
+    /* Generic */
+    .btn-general {
+        padding: 8px 35px 8px 35px;
+        font-size: 10px;
+    }
+}
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+    /* Home */
+    #home-heading h1 {
+        font-size: 22px;
+    }
+    #home-text p {
+        font-size: 13px;
+        line-height: 18px;
+        margin: 8px 2px 30px 2px;
+    }
+    /* Generic */
+    .btn-general {
+        padding: 8px 25px 6px 25px;
+        font-size: 10px;
+    }
+    /* Portfolio */
+    #portfolio {
+        padding-bottom: 0;
+    }
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 480px) {
+    /* Home */
+    #home-heading h1 {
+        font-size: 18px;
+    }
+    #home-text p {
+        font-size: 11px;
+        line-height: 16px;
+        margin: 8px 10px 25px 10px;
+    }
+}
